@@ -1,0 +1,14 @@
+.trend {
+  width: 100%;
+  font-size: 20px;
+  margin-top: 30px;
+}
+.trend > h3 {
+  text-align: center;
+}
+.trendingRows {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}

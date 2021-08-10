@@ -1,11 +1,12 @@
 import React from "react";
+import "./home.css";
+import TrendingProducts from "./TrendingProducts";
 
 const Home = () => {
   return (
     <div className="home">
-      <div>
-        <h1>Trending Deals for You</h1>
-        
+      <div className="homeRow">
+        <TrendingProducts/>
       </div>
     </div>
   );
